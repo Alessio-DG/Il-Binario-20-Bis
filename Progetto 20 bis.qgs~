@@ -25,6 +25,9 @@
     <layer-tree-layer checked="Qt::Checked" source="./Stazioni/Stazioni2.shp|layername=Stazioni2" id="Stazioni2_bacb5233_9be1_416c_ae9f_05da3918f634" name="Stazioni2" expanded="0" providerKey="ogr">
       <customproperties/>
     </layer-tree-layer>
+    <layer-tree-layer checked="Qt::Checked" source="./Tabella storie prova.csv" id="Tabella_storie_prova_6bbaedaa_772a_4d97_ad79_5c053aacd1ad" name="Tabella storie prova" expanded="1" providerKey="ogr">
+      <customproperties/>
+    </layer-tree-layer>
     <layer-tree-layer checked="Qt::Checked" source="./Roma-Campobasso.shp" id="Roma_Campobasso_b89edea5_c19f_4ad0_b138_acfbb2f6d6c3" name="Roma-Campobasso" expanded="1" providerKey="ogr">
       <customproperties/>
     </layer-tree-layer>
@@ -72,6 +75,7 @@
       <item>Cassino_Venafro_8d645d65_96f4_4400_a5c6_b50a49405ee8</item>
       <item>Roma_Campobasso_b89edea5_c19f_4ad0_b138_acfbb2f6d6c3</item>
       <item>Campobasso_Roma_30d5af2c_0798_4cf7_8d36_92240c8ef7b9</item>
+      <item>Tabella_storie_prova_6bbaedaa_772a_4d97_ad79_5c053aacd1ad</item>
     </custom-order>
   </layer-tree-group>
   <snapping-settings mode="2" type="1" tolerance="12" intersection-snapping="0" enabled="0" unit="1">
@@ -123,6 +127,11 @@
     <legendlayer drawingOrder="-1" checked="Qt::Checked" open="false" showFeatureCount="0" name="Stazioni2">
       <filegroup hidden="false" open="false">
         <legendlayerfile layerid="Stazioni2_bacb5233_9be1_416c_ae9f_05da3918f634" isInOverview="0" visible="1"/>
+      </filegroup>
+    </legendlayer>
+    <legendlayer drawingOrder="-1" checked="Qt::Checked" open="true" showFeatureCount="0" name="Tabella storie prova">
+      <filegroup hidden="false" open="true">
+        <legendlayerfile layerid="Tabella_storie_prova_6bbaedaa_772a_4d97_ad79_5c053aacd1ad" isInOverview="0" visible="1"/>
       </filegroup>
     </legendlayer>
     <legendlayer drawingOrder="-1" checked="Qt::Checked" open="true" showFeatureCount="0" name="Roma-Campobasso">
@@ -2654,6 +2663,209 @@ def my_form_open(dialog, layer, feature):
       <previewExpression>RID</previewExpression>
       <mapTip></mapTip>
     </maplayer>
+    <maplayer autoRefreshTime="0" styleCategories="AllStyleCategories" refreshOnNotifyMessage="" type="vector" geometry="No geometry" minScale="1e+08" readOnly="0" autoRefreshEnabled="0" refreshOnNotifyEnabled="0" hasScaleBasedVisibilityFlag="0" maxScale="0">
+      <id>Tabella_storie_prova_6bbaedaa_772a_4d97_ad79_5c053aacd1ad</id>
+      <datasource>./Tabella storie prova.csv</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>Tabella storie prova</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4></proj4>
+          <srsid>0</srsid>
+          <srid>0</srid>
+          <authid></authid>
+          <description></description>
+          <projectionacronym></projectionacronym>
+          <ellipsoidacronym></ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type></type>
+        <title></title>
+        <abstract></abstract>
+        <links/>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent/>
+      </resourceMetadata>
+      <provider encoding="System">ogr</provider>
+      <vectorjoins/>
+      <layerDependencies/>
+      <dataDependencies/>
+      <legend type="default-vector"/>
+      <expressionfields/>
+      <map-layer-style-manager current="predefinito">
+        <map-layer-style name="predefinito"/>
+      </map-layer-style-manager>
+      <auxiliaryLayer/>
+      <flags>
+        <Identifiable>1</Identifiable>
+        <Removable>1</Removable>
+        <Searchable>1</Searchable>
+      </flags>
+      <customproperties>
+        <property key="dualview/previewExpressions">
+          <value>"NOME TRATTA"</value>
+        </property>
+      </customproperties>
+      <geometryOptions geometryPrecision="0" removeDuplicateNodes="0">
+        <activeChecks type="StringList">
+          <Option type="QString" value=""/>
+        </activeChecks>
+        <checkConfiguration/>
+      </geometryOptions>
+      <fieldConfiguration>
+        <field name="NOME TRATTA">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="DATA">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="PARTENZA STIMATA">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="ARRIVO STIMATO">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="PARTENZA EFFETTIVA">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="ARRIVO EFFETTIVO">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="PROBLEMA">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="LINK">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+      </fieldConfiguration>
+      <aliases>
+        <alias field="NOME TRATTA" index="0" name=""/>
+        <alias field="DATA" index="1" name=""/>
+        <alias field="PARTENZA STIMATA" index="2" name=""/>
+        <alias field="ARRIVO STIMATO" index="3" name=""/>
+        <alias field="PARTENZA EFFETTIVA" index="4" name=""/>
+        <alias field="ARRIVO EFFETTIVO" index="5" name=""/>
+        <alias field="PROBLEMA" index="6" name=""/>
+        <alias field="LINK" index="7" name=""/>
+      </aliases>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <defaults>
+        <default field="NOME TRATTA" expression="" applyOnUpdate="0"/>
+        <default field="DATA" expression="" applyOnUpdate="0"/>
+        <default field="PARTENZA STIMATA" expression="" applyOnUpdate="0"/>
+        <default field="ARRIVO STIMATO" expression="" applyOnUpdate="0"/>
+        <default field="PARTENZA EFFETTIVA" expression="" applyOnUpdate="0"/>
+        <default field="ARRIVO EFFETTIVO" expression="" applyOnUpdate="0"/>
+        <default field="PROBLEMA" expression="" applyOnUpdate="0"/>
+        <default field="LINK" expression="" applyOnUpdate="0"/>
+      </defaults>
+      <constraints>
+        <constraint field="NOME TRATTA" notnull_strength="0" unique_strength="0" constraints="0" exp_strength="0"/>
+        <constraint field="DATA" notnull_strength="0" unique_strength="0" constraints="0" exp_strength="0"/>
+        <constraint field="PARTENZA STIMATA" notnull_strength="0" unique_strength="0" constraints="0" exp_strength="0"/>
+        <constraint field="ARRIVO STIMATO" notnull_strength="0" unique_strength="0" constraints="0" exp_strength="0"/>
+        <constraint field="PARTENZA EFFETTIVA" notnull_strength="0" unique_strength="0" constraints="0" exp_strength="0"/>
+        <constraint field="ARRIVO EFFETTIVO" notnull_strength="0" unique_strength="0" constraints="0" exp_strength="0"/>
+        <constraint field="PROBLEMA" notnull_strength="0" unique_strength="0" constraints="0" exp_strength="0"/>
+        <constraint field="LINK" notnull_strength="0" unique_strength="0" constraints="0" exp_strength="0"/>
+      </constraints>
+      <constraintExpressions>
+        <constraint field="NOME TRATTA" exp="" desc=""/>
+        <constraint field="DATA" exp="" desc=""/>
+        <constraint field="PARTENZA STIMATA" exp="" desc=""/>
+        <constraint field="ARRIVO STIMATO" exp="" desc=""/>
+        <constraint field="PARTENZA EFFETTIVA" exp="" desc=""/>
+        <constraint field="ARRIVO EFFETTIVO" exp="" desc=""/>
+        <constraint field="PROBLEMA" exp="" desc=""/>
+        <constraint field="LINK" exp="" desc=""/>
+      </constraintExpressions>
+      <expressionfields/>
+      <attributeactions>
+        <defaultAction key="Canvas" value="{00000000-0000-0000-0000-000000000000}"/>
+      </attributeactions>
+      <attributetableconfig actionWidgetStyle="dropDown" sortExpression="" sortOrder="0">
+        <columns>
+          <column type="field" width="-1" hidden="0" name="NOME TRATTA"/>
+          <column type="field" width="-1" hidden="0" name="DATA"/>
+          <column type="field" width="135" hidden="0" name="PARTENZA STIMATA"/>
+          <column type="field" width="-1" hidden="0" name="ARRIVO STIMATO"/>
+          <column type="field" width="143" hidden="0" name="PARTENZA EFFETTIVA"/>
+          <column type="field" width="137" hidden="0" name="ARRIVO EFFETTIVO"/>
+          <column type="field" width="-1" hidden="0" name="PROBLEMA"/>
+          <column type="field" width="-1" hidden="0" name="LINK"/>
+          <column type="actions" width="-1" hidden="1"/>
+        </columns>
+      </attributetableconfig>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <editform tolerant="1"></editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode><![CDATA[]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <editable/>
+      <labelOnTop/>
+      <widgets/>
+      <previewExpression>"NOME TRATTA"</previewExpression>
+      <mapTip></mapTip>
+    </maplayer>
     <maplayer autoRefreshTime="0" simplifyLocal="1" styleCategories="AllStyleCategories" refreshOnNotifyMessage="" type="vector" geometry="Line" simplifyAlgorithm="0" labelsEnabled="0" minScale="1e+08" readOnly="0" simplifyDrawingHints="1" simplifyDrawingTol="1" simplifyMaxScale="1" autoRefreshEnabled="0" refreshOnNotifyEnabled="0" hasScaleBasedVisibilityFlag="0" maxScale="0">
       <extent>
         <xmin>921568.19681853987276554</xmin>
@@ -3277,6 +3489,7 @@ def my_form_open(dialog, layer, feature):
     <layer id="Cassino_Venafro_8d645d65_96f4_4400_a5c6_b50a49405ee8"/>
     <layer id="Roma_Campobasso_b89edea5_c19f_4ad0_b138_acfbb2f6d6c3"/>
     <layer id="Campobasso_Roma_30d5af2c_0798_4cf7_8d36_92240c8ef7b9"/>
+    <layer id="Tabella_storie_prova_6bbaedaa_772a_4d97_ad79_5c053aacd1ad"/>
   </layerorder>
   <properties>
     <Gui>
