@@ -19,12 +19,15 @@
   </projectCrs>
   <layer-tree-group>
     <customproperties/>
-    <layer-tree-layer name="Stazioni2" id="Stazioni2_bacb5233_9be1_416c_ae9f_05da3918f634" providerKey="ogr" expanded="0" source="./Stazioni/Stazioni2.shp|layername=Stazioni2" checked="Qt::Checked">
+    <layer-tree-group name="ferrovie italiane" expanded="1" checked="Qt::Checked">
       <customproperties/>
-    </layer-tree-layer>
-    <layer-tree-layer name="Tabella storie prova" id="Tabella_storie_prova_6bbaedaa_772a_4d97_ad79_5c053aacd1ad" providerKey="ogr" expanded="1" source="./Tabella storie prova.csv" checked="Qt::Checked">
-      <customproperties/>
-    </layer-tree-layer>
+      <layer-tree-layer name="Stazioni 20bis" id="Stazioni2_bacb5233_9be1_416c_ae9f_05da3918f634" providerKey="ogr" expanded="0" source="./Stazioni/Stazioni2.shp|layername=Stazioni2" checked="Qt::Checked">
+        <customproperties/>
+      </layer-tree-layer>
+      <layer-tree-layer name="ITF" id="ITF_0819f529_dffa_4bb8_99bf_ad2761c78c78" providerKey="ogr" expanded="1" source="./Ferrovie Italiane/ITF.shp" checked="Qt::Unchecked">
+        <customproperties/>
+      </layer-tree-layer>
+    </layer-tree-group>
     <layer-tree-group name="tratte" expanded="1" checked="Qt::Checked">
       <customproperties/>
       <layer-tree-layer name="Bojano-Vinchiaturo" id="Bojano_Vinchiaturo_a093e0d7_d92c_4617_a766_c23698e24ec1" providerKey="ogr" expanded="1" source="./20_Bis_tratte/20 Bis (tratte)/Bojano-Vinchiaturo.shp" checked="Qt::Checked">
@@ -55,15 +58,24 @@
         <customproperties/>
       </layer-tree-layer>
     </layer-tree-group>
-    <layer-tree-layer name="molise_rete_fs3_modificato" id="molise_rete_fs3_modificato_7c53ce33_e5a2_4e4b_b4c7_ef4949cc1e0f" providerKey="gdal" expanded="1" source="./molise_rete_fs3_modificato.tif" checked="Qt::Unchecked">
+    <layer-tree-group name="stampa" expanded="1" checked="Qt::Checked">
       <customproperties/>
-    </layer-tree-layer>
-    <layer-tree-layer name="Fuso (merged)" id="Regioni_20_bis_bb8e4494_8342_49ee_9188_823102aec5a1" providerKey="ogr" expanded="1" source="./Regioni 20 bis.shp" checked="Qt::Unchecked">
+      <layer-tree-layer name="Fuso (merged)" id="Regioni_20_bis_bb8e4494_8342_49ee_9188_823102aec5a1" providerKey="ogr" expanded="1" source="./Regioni 20 bis.shp" checked="Qt::Checked">
+        <customproperties/>
+      </layer-tree-layer>
+      <layer-tree-layer name="molise_rete_fs3_modificato" id="molise_rete_fs3_modificato_7c53ce33_e5a2_4e4b_b4c7_ef4949cc1e0f" providerKey="gdal" expanded="1" source="./molise_rete_fs3_modificato.tif" checked="Qt::Unchecked">
+        <customproperties/>
+      </layer-tree-layer>
+      <layer-tree-layer name="Google Hybrid" id="Google_Hybrid_23b9fffa_e377_4f73_adcc_c0d990538af0" providerKey="wms" expanded="1" source="crs=EPSG:3857&amp;format&amp;type=xyz&amp;url=https://mt1.google.com/vt/lyrs%3Dy%26x%3D%7Bx%7D%26y%3D%7By%7D%26z%3D%7Bz%7D&amp;zmax=20&amp;zmin=0" checked="Qt::Unchecked">
+        <customproperties/>
+      </layer-tree-layer>
+    </layer-tree-group>
+    <layer-tree-group name="tabelle" expanded="1" checked="Qt::Checked">
       <customproperties/>
-    </layer-tree-layer>
-    <layer-tree-layer name="Google Hybrid" id="Google_Hybrid_23b9fffa_e377_4f73_adcc_c0d990538af0" providerKey="wms" expanded="1" source="crs=EPSG:3857&amp;format&amp;type=xyz&amp;url=https://mt1.google.com/vt/lyrs%3Dy%26x%3D%7Bx%7D%26y%3D%7By%7D%26z%3D%7Bz%7D&amp;zmax=20&amp;zmin=0" checked="Qt::Unchecked">
-      <customproperties/>
-    </layer-tree-layer>
+      <layer-tree-layer name="Tabella storie prova" id="Tabella_storie_prova_6bbaedaa_772a_4d97_ad79_5c053aacd1ad" providerKey="ogr" expanded="1" source="./Tabella storie prova.csv" checked="Qt::Checked">
+        <customproperties/>
+      </layer-tree-layer>
+    </layer-tree-group>
     <custom-order enabled="0">
       <item>Google_Hybrid_23b9fffa_e377_4f73_adcc_c0d990538af0</item>
       <item>Regioni_20_bis_bb8e4494_8342_49ee_9188_823102aec5a1</item>
@@ -78,6 +90,8 @@
       <item>Cassino_Venafro_8d645d65_96f4_4400_a5c6_b50a49405ee8</item>
       <item>Roma_Campobasso_b89edea5_c19f_4ad0_b138_acfbb2f6d6c3</item>
       <item>Campobasso_Roma_30d5af2c_0798_4cf7_8d36_92240c8ef7b9</item>
+      <item>ITF_0819f529_dffa_4bb8_99bf_ad2761c78c78</item>
+      <item>Tabella_storie_prova_6bbaedaa_772a_4d97_ad79_5c053aacd1ad</item>
     </custom-order>
   </layer-tree-group>
   <snapping-settings type="1" tolerance="12" mode="2" enabled="0" unit="1" intersection-snapping="0">
@@ -87,6 +101,7 @@
       <layer-setting type="1" tolerance="12" id="Cassino_Venafro_8d645d65_96f4_4400_a5c6_b50a49405ee8" enabled="0" units="1"/>
       <layer-setting type="1" tolerance="12" id="Vinchiaturo_Campobasso_5281eba5_7261_43d5_811d_7678a5fd7cee" enabled="0" units="1"/>
       <layer-setting type="1" tolerance="12" id="Roma_Campobasso_b89edea5_c19f_4ad0_b138_acfbb2f6d6c3" enabled="0" units="1"/>
+      <layer-setting type="1" tolerance="12" id="ITF_0819f529_dffa_4bb8_99bf_ad2761c78c78" enabled="0" units="1"/>
       <layer-setting type="1" tolerance="12" id="Bojano_Vinchiaturo_a093e0d7_d92c_4617_a766_c23698e24ec1" enabled="0" units="1"/>
       <layer-setting type="1" tolerance="12" id="Campobasso_Roma_30d5af2c_0798_4cf7_8d36_92240c8ef7b9" enabled="0" units="1"/>
       <layer-setting type="1" tolerance="12" id="Venafro_Isernia_d18f5398_f38b_4c26_8fb8_4e3c5fc62b6a" enabled="0" units="1"/>
@@ -99,10 +114,10 @@
   <mapcanvas name="theMapCanvas" annotationsVisible="1">
     <units>meters</units>
     <extent>
-      <xmin>782933.84220494399778545</xmin>
-      <ymin>4582608.43084125965833664</ymin>
-      <xmax>974009.39737688028253615</xmax>
-      <ymax>4633112.94675826281309128</ymax>
+      <xmin>776376.50486606499180198</xmin>
+      <ymin>4579367.43382349610328674</ymin>
+      <xmax>994484.78433315479196608</xmax>
+      <ymax>4637017.15810174494981766</ymax>
     </extent>
     <rotation>0</rotation>
     <destinationsrs>
@@ -122,16 +137,18 @@
   </mapcanvas>
   <projectModels/>
   <legend updateDrawingOrder="true">
-    <legendlayer name="Stazioni2" showFeatureCount="0" drawingOrder="-1" checked="Qt::Checked" open="false">
-      <filegroup hidden="false" open="false">
-        <legendlayerfile visible="1" isInOverview="0" layerid="Stazioni2_bacb5233_9be1_416c_ae9f_05da3918f634"/>
-      </filegroup>
-    </legendlayer>
-    <legendlayer name="Tabella storie prova" showFeatureCount="0" drawingOrder="-1" checked="Qt::Checked" open="true">
-      <filegroup hidden="false" open="true">
-        <legendlayerfile visible="1" isInOverview="0" layerid="Tabella_storie_prova_6bbaedaa_772a_4d97_ad79_5c053aacd1ad"/>
-      </filegroup>
-    </legendlayer>
+    <legendgroup name="ferrovie italiane" checked="Qt::Checked" open="true">
+      <legendlayer name="Stazioni 20bis" showFeatureCount="0" drawingOrder="-1" checked="Qt::Checked" open="false">
+        <filegroup hidden="false" open="false">
+          <legendlayerfile visible="1" isInOverview="0" layerid="Stazioni2_bacb5233_9be1_416c_ae9f_05da3918f634"/>
+        </filegroup>
+      </legendlayer>
+      <legendlayer name="ITF" showFeatureCount="0" drawingOrder="-1" checked="Qt::Unchecked" open="true">
+        <filegroup hidden="false" open="true">
+          <legendlayerfile visible="0" isInOverview="0" layerid="ITF_0819f529_dffa_4bb8_99bf_ad2761c78c78"/>
+        </filegroup>
+      </legendlayer>
+    </legendgroup>
     <legendgroup name="tratte" checked="Qt::Checked" open="true">
       <legendlayer name="Bojano-Vinchiaturo" showFeatureCount="0" drawingOrder="-1" checked="Qt::Checked" open="true">
         <filegroup hidden="false" open="true">
@@ -179,21 +196,30 @@
         </filegroup>
       </legendlayer>
     </legendgroup>
-    <legendlayer name="molise_rete_fs3_modificato" showFeatureCount="0" drawingOrder="-1" checked="Qt::Unchecked" open="true">
-      <filegroup hidden="false" open="true">
-        <legendlayerfile visible="0" isInOverview="0" layerid="molise_rete_fs3_modificato_7c53ce33_e5a2_4e4b_b4c7_ef4949cc1e0f"/>
-      </filegroup>
-    </legendlayer>
-    <legendlayer name="Fuso (merged)" showFeatureCount="0" drawingOrder="-1" checked="Qt::Unchecked" open="true">
-      <filegroup hidden="false" open="true">
-        <legendlayerfile visible="0" isInOverview="0" layerid="Regioni_20_bis_bb8e4494_8342_49ee_9188_823102aec5a1"/>
-      </filegroup>
-    </legendlayer>
-    <legendlayer name="Google Hybrid" showFeatureCount="0" drawingOrder="-1" checked="Qt::Unchecked" open="true">
-      <filegroup hidden="false" open="true">
-        <legendlayerfile visible="0" isInOverview="0" layerid="Google_Hybrid_23b9fffa_e377_4f73_adcc_c0d990538af0"/>
-      </filegroup>
-    </legendlayer>
+    <legendgroup name="stampa" checked="Qt::Checked" open="true">
+      <legendlayer name="Fuso (merged)" showFeatureCount="0" drawingOrder="-1" checked="Qt::Checked" open="true">
+        <filegroup hidden="false" open="true">
+          <legendlayerfile visible="1" isInOverview="0" layerid="Regioni_20_bis_bb8e4494_8342_49ee_9188_823102aec5a1"/>
+        </filegroup>
+      </legendlayer>
+      <legendlayer name="molise_rete_fs3_modificato" showFeatureCount="0" drawingOrder="-1" checked="Qt::Unchecked" open="true">
+        <filegroup hidden="false" open="true">
+          <legendlayerfile visible="0" isInOverview="0" layerid="molise_rete_fs3_modificato_7c53ce33_e5a2_4e4b_b4c7_ef4949cc1e0f"/>
+        </filegroup>
+      </legendlayer>
+      <legendlayer name="Google Hybrid" showFeatureCount="0" drawingOrder="-1" checked="Qt::Unchecked" open="true">
+        <filegroup hidden="false" open="true">
+          <legendlayerfile visible="0" isInOverview="0" layerid="Google_Hybrid_23b9fffa_e377_4f73_adcc_c0d990538af0"/>
+        </filegroup>
+      </legendlayer>
+    </legendgroup>
+    <legendgroup name="tabelle" checked="Qt::Checked" open="true">
+      <legendlayer name="Tabella storie prova" showFeatureCount="0" drawingOrder="-1" checked="Qt::Checked" open="true">
+        <filegroup hidden="false" open="true">
+          <legendlayerfile visible="1" isInOverview="0" layerid="Tabella_storie_prova_6bbaedaa_772a_4d97_ad79_5c053aacd1ad"/>
+        </filegroup>
+      </legendlayer>
+    </legendgroup>
   </legend>
   <mapViewDocks/>
   <mapViewDocks3D/>
@@ -1271,6 +1297,218 @@ def my_form_open(dialog, layer, feature):
         <rasterresampler maxOversampling="2"/>
       </pipe>
       <blendMode>0</blendMode>
+    </maplayer>
+    <maplayer geometry="Point" hasScaleBasedVisibilityFlag="0" labelsEnabled="0" wkbType="Point" type="vector" simplifyAlgorithm="0" refreshOnNotifyEnabled="0" minScale="1e+08" simplifyDrawingHints="1" autoRefreshEnabled="0" maxScale="0" refreshOnNotifyMessage="" simplifyMaxScale="1" autoRefreshTime="0" simplifyDrawingTol="1" readOnly="0" simplifyLocal="1" styleCategories="AllStyleCategories">
+      <extent>
+        <xmin>6.68163773648383597</xmin>
+        <ymin>36.73188207324550092</ymin>
+        <xmax>18.48104099747290263</xmax>
+        <ymax>47.00699845781493025</ymax>
+      </extent>
+      <id>ITF_0819f529_dffa_4bb8_99bf_ad2761c78c78</id>
+      <datasource>./Ferrovie Italiane/ITF.shp</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>ITF</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+          <srsid>3452</srsid>
+          <srid>4326</srid>
+          <authid>EPSG:4326</authid>
+          <description>WGS 84</description>
+          <projectionacronym>longlat</projectionacronym>
+          <ellipsoidacronym>WGS84</ellipsoidacronym>
+          <geographicflag>true</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type>dataset</type>
+        <title></title>
+        <abstract></abstract>
+        <links/>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent/>
+      </resourceMetadata>
+      <provider encoding="System">ogr</provider>
+      <vectorjoins/>
+      <layerDependencies/>
+      <dataDependencies/>
+      <legend type="default-vector"/>
+      <expressionfields/>
+      <map-layer-style-manager current="predefinito">
+        <map-layer-style name="predefinito"/>
+      </map-layer-style-manager>
+      <auxiliaryLayer/>
+      <flags>
+        <Identifiable>1</Identifiable>
+        <Removable>1</Removable>
+        <Searchable>1</Searchable>
+      </flags>
+      <renderer-v2 type="singleSymbol" symbollevels="0" enableorderby="0" forceraster="0">
+        <symbols>
+          <symbol type="marker" name="0" clip_to_extent="1" force_rhr="0" alpha="1">
+            <layer locked="0" class="SimpleMarker" enabled="1" pass="0">
+              <prop k="angle" v="0"/>
+              <prop k="color" v="114,155,111,255"/>
+              <prop k="horizontal_anchor_point" v="1"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="name" v="circle"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="35,35,35,255"/>
+              <prop k="outline_style" v="solid"/>
+              <prop k="outline_width" v="0"/>
+              <prop k="outline_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="scale_method" v="diameter"/>
+              <prop k="size" v="2"/>
+              <prop k="size_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="size_unit" v="MM"/>
+              <prop k="vertical_anchor_point" v="1"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option type="QString" value="" name="name"/>
+                  <Option name="properties"/>
+                  <Option type="QString" value="collection" name="type"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+        </symbols>
+        <rotation/>
+        <sizescale/>
+      </renderer-v2>
+      <customproperties/>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerOpacity>1</layerOpacity>
+      <geometryOptions removeDuplicateNodes="0" geometryPrecision="0">
+        <activeChecks type="StringList">
+          <Option type="QString" value=""/>
+        </activeChecks>
+        <checkConfiguration/>
+      </geometryOptions>
+      <fieldConfiguration>
+        <field name="RID">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="ORIGINE">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="TIPO">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="REG">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="FID_1">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="DEC_TIPO">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+      </fieldConfiguration>
+      <aliases>
+        <alias name="" index="0" field="RID"/>
+        <alias name="" index="1" field="ORIGINE"/>
+        <alias name="" index="2" field="TIPO"/>
+        <alias name="" index="3" field="REG"/>
+        <alias name="" index="4" field="FID_1"/>
+        <alias name="" index="5" field="DEC_TIPO"/>
+      </aliases>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <defaults>
+        <default expression="" applyOnUpdate="0" field="RID"/>
+        <default expression="" applyOnUpdate="0" field="ORIGINE"/>
+        <default expression="" applyOnUpdate="0" field="TIPO"/>
+        <default expression="" applyOnUpdate="0" field="REG"/>
+        <default expression="" applyOnUpdate="0" field="FID_1"/>
+        <default expression="" applyOnUpdate="0" field="DEC_TIPO"/>
+      </defaults>
+      <constraints>
+        <constraint notnull_strength="0" unique_strength="0" constraints="0" field="RID" exp_strength="0"/>
+        <constraint notnull_strength="0" unique_strength="0" constraints="0" field="ORIGINE" exp_strength="0"/>
+        <constraint notnull_strength="0" unique_strength="0" constraints="0" field="TIPO" exp_strength="0"/>
+        <constraint notnull_strength="0" unique_strength="0" constraints="0" field="REG" exp_strength="0"/>
+        <constraint notnull_strength="0" unique_strength="0" constraints="0" field="FID_1" exp_strength="0"/>
+        <constraint notnull_strength="0" unique_strength="0" constraints="0" field="DEC_TIPO" exp_strength="0"/>
+      </constraints>
+      <constraintExpressions>
+        <constraint exp="" desc="" field="RID"/>
+        <constraint exp="" desc="" field="ORIGINE"/>
+        <constraint exp="" desc="" field="TIPO"/>
+        <constraint exp="" desc="" field="REG"/>
+        <constraint exp="" desc="" field="FID_1"/>
+        <constraint exp="" desc="" field="DEC_TIPO"/>
+      </constraintExpressions>
+      <expressionfields/>
+      <attributeactions>
+        <defaultAction value="{00000000-0000-0000-0000-000000000000}" key="Canvas"/>
+      </attributeactions>
+      <attributetableconfig sortOrder="0" sortExpression="" actionWidgetStyle="dropDown">
+        <columns/>
+      </attributetableconfig>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <storedexpressions/>
+      <editform tolerant="1"></editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode><![CDATA[]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <editable/>
+      <labelOnTop/>
+      <widgets/>
+      <previewExpression></previewExpression>
+      <mapTip></mapTip>
     </maplayer>
     <maplayer geometry="Line" hasScaleBasedVisibilityFlag="0" labelsEnabled="0" wkbType="MultiLineString" type="vector" simplifyAlgorithm="0" refreshOnNotifyEnabled="0" minScale="1e+08" simplifyDrawingHints="1" autoRefreshEnabled="0" maxScale="0" refreshOnNotifyMessage="" simplifyMaxScale="1" autoRefreshTime="0" simplifyDrawingTol="1" readOnly="0" simplifyLocal="1" styleCategories="AllStyleCategories">
       <extent>
@@ -2402,7 +2640,7 @@ def my_form_open(dialog, layer, feature):
       <keywordList>
         <value></value>
       </keywordList>
-      <layername>Stazioni2</layername>
+      <layername>Stazioni 20bis</layername>
       <srs>
         <spatialrefsys>
           <proj4>+proj=utm +zone=32 +datum=WGS84 +units=m +no_defs</proj4>
@@ -2732,7 +2970,9 @@ def my_form_open(dialog, layer, feature):
         <Searchable>1</Searchable>
       </flags>
       <customproperties>
-        <property value="&quot;NOME TRATTA&quot;" key="dualview/previewExpressions"/>
+        <property key="dualview/previewExpressions">
+          <value>"NOME TRATTA"</value>
+        </property>
       </customproperties>
       <geometryOptions removeDuplicateNodes="0" geometryPrecision="0">
         <activeChecks type="StringList">
@@ -3500,6 +3740,8 @@ def my_form_open(dialog, layer, feature):
     <layer id="Cassino_Venafro_8d645d65_96f4_4400_a5c6_b50a49405ee8"/>
     <layer id="Roma_Campobasso_b89edea5_c19f_4ad0_b138_acfbb2f6d6c3"/>
     <layer id="Campobasso_Roma_30d5af2c_0798_4cf7_8d36_92240c8ef7b9"/>
+    <layer id="ITF_0819f529_dffa_4bb8_99bf_ad2761c78c78"/>
+    <layer id="Tabella_storie_prova_6bbaedaa_772a_4d97_ad79_5c053aacd1ad"/>
   </layerorder>
   <properties>
     <Gui>
