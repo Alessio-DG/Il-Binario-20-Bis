@@ -27,11 +27,17 @@
       <layer-tree-layer source="./Ferrovie Italiane/ITF.shp" id="ITF_0819f529_dffa_4bb8_99bf_ad2761c78c78" name="ITF" expanded="1" checked="Qt::Unchecked" providerKey="ogr">
         <customproperties/>
       </layer-tree-layer>
+      <layer-tree-layer source="./animazione/20bis semplificato punti.gpkg|layername=20bis semplificato punti" id="Vertici_17af70fb_5f4c_46fd_837d_2ff3ff8af4f7" name="20bis punti" expanded="1" checked="Qt::Checked" providerKey="ogr">
+        <customproperties/>
+      </layer-tree-layer>
+      <layer-tree-layer source="./animazione/20bis semplificato linea.gpkg|layername=20bis semplificato linea" id="20bis_unito_a78802ba_9bf1_4863_9941_95918db8a8ea" name="20bis unito" expanded="1" checked="Qt::Unchecked" providerKey="ogr">
+        <customproperties/>
+      </layer-tree-layer>
       <layer-tree-layer source="./Ferrovie Italiane/TF 32632.shp" id="TF_32632_497fbab0_7992_48b0_b4e8_aee279ab2fb5" name="TF 32632" expanded="1" checked="Qt::Unchecked" providerKey="ogr">
         <customproperties/>
       </layer-tree-layer>
     </layer-tree-group>
-    <layer-tree-group name="tratte" expanded="1" checked="Qt::Checked">
+    <layer-tree-group name="tratte" expanded="1" checked="Qt::Unchecked">
       <customproperties/>
       <layer-tree-layer source="./20_Bis_tratte/20 Bis (tratte)/Bojano-Vinchiaturo.shp" id="Bojano_Vinchiaturo_a093e0d7_d92c_4617_a766_c23698e24ec1" name="Bojano-Vinchiaturo" expanded="1" checked="Qt::Checked" providerKey="ogr">
         <customproperties/>
@@ -95,11 +101,14 @@
       <item>Campobasso_Roma_30d5af2c_0798_4cf7_8d36_92240c8ef7b9</item>
       <item>ITF_0819f529_dffa_4bb8_99bf_ad2761c78c78</item>
       <item>TF_32632_497fbab0_7992_48b0_b4e8_aee279ab2fb5</item>
+      <item>20bis_unito_a78802ba_9bf1_4863_9941_95918db8a8ea</item>
+      <item>Vertici_17af70fb_5f4c_46fd_837d_2ff3ff8af4f7</item>
     </custom-order>
   </layer-tree-group>
   <snapping-settings tolerance="12" mode="2" type="1" unit="1" intersection-snapping="0" enabled="0">
     <individual-layer-settings>
       <layer-setting units="1" tolerance="12" type="1" id="Bojano_Vinchiaturo_a093e0d7_d92c_4617_a766_c23698e24ec1" enabled="0"/>
+      <layer-setting units="1" tolerance="12" type="1" id="Vertici_17af70fb_5f4c_46fd_837d_2ff3ff8af4f7" enabled="0"/>
       <layer-setting units="1" tolerance="12" type="1" id="Vinchiaturo_Campobasso_5281eba5_7261_43d5_811d_7678a5fd7cee" enabled="0"/>
       <layer-setting units="1" tolerance="12" type="1" id="Isernia_Carpinone_743b5ec9_aae8_46d0_90db_50397cf38753" enabled="0"/>
       <layer-setting units="1" tolerance="12" type="1" id="Roma_Cassino_9c1f9ef6_e597_4ca8_8528_7490b37627a5" enabled="0"/>
@@ -109,6 +118,7 @@
       <layer-setting units="1" tolerance="12" type="1" id="Cassino_Venafro_8d645d65_96f4_4400_a5c6_b50a49405ee8" enabled="0"/>
       <layer-setting units="1" tolerance="12" type="1" id="Stazioni2_bacb5233_9be1_416c_ae9f_05da3918f634" enabled="0"/>
       <layer-setting units="1" tolerance="12" type="1" id="TF_32632_497fbab0_7992_48b0_b4e8_aee279ab2fb5" enabled="0"/>
+      <layer-setting units="1" tolerance="12" type="1" id="20bis_unito_a78802ba_9bf1_4863_9941_95918db8a8ea" enabled="0"/>
       <layer-setting units="1" tolerance="12" type="1" id="Campobasso_Roma_30d5af2c_0798_4cf7_8d36_92240c8ef7b9" enabled="0"/>
       <layer-setting units="1" tolerance="12" type="1" id="Carpinone_Bojano_8881eb44_862e_4c5c_8d3c_2674da5b7e59" enabled="0"/>
       <layer-setting units="1" tolerance="12" type="1" id="ITF_0819f529_dffa_4bb8_99bf_ad2761c78c78" enabled="0"/>
@@ -152,56 +162,66 @@
           <legendlayerfile isInOverview="0" layerid="ITF_0819f529_dffa_4bb8_99bf_ad2761c78c78" visible="0"/>
         </filegroup>
       </legendlayer>
+      <legendlayer showFeatureCount="0" name="20bis punti" drawingOrder="-1" checked="Qt::Checked" open="true">
+        <filegroup hidden="false" open="true">
+          <legendlayerfile isInOverview="0" layerid="Vertici_17af70fb_5f4c_46fd_837d_2ff3ff8af4f7" visible="1"/>
+        </filegroup>
+      </legendlayer>
+      <legendlayer showFeatureCount="0" name="20bis unito" drawingOrder="-1" checked="Qt::Unchecked" open="true">
+        <filegroup hidden="false" open="true">
+          <legendlayerfile isInOverview="0" layerid="20bis_unito_a78802ba_9bf1_4863_9941_95918db8a8ea" visible="0"/>
+        </filegroup>
+      </legendlayer>
       <legendlayer showFeatureCount="0" name="TF 32632" drawingOrder="-1" checked="Qt::Unchecked" open="true">
         <filegroup hidden="false" open="true">
           <legendlayerfile isInOverview="0" layerid="TF_32632_497fbab0_7992_48b0_b4e8_aee279ab2fb5" visible="0"/>
         </filegroup>
       </legendlayer>
     </legendgroup>
-    <legendgroup name="tratte" checked="Qt::Checked" open="true">
+    <legendgroup name="tratte" checked="Qt::Unchecked" open="true">
       <legendlayer showFeatureCount="0" name="Bojano-Vinchiaturo" drawingOrder="-1" checked="Qt::Checked" open="true">
         <filegroup hidden="false" open="true">
-          <legendlayerfile isInOverview="0" layerid="Bojano_Vinchiaturo_a093e0d7_d92c_4617_a766_c23698e24ec1" visible="1"/>
+          <legendlayerfile isInOverview="0" layerid="Bojano_Vinchiaturo_a093e0d7_d92c_4617_a766_c23698e24ec1" visible="0"/>
         </filegroup>
       </legendlayer>
       <legendlayer showFeatureCount="0" name="Vinchiaturo-Campobasso" drawingOrder="-1" checked="Qt::Checked" open="true">
         <filegroup hidden="false" open="true">
-          <legendlayerfile isInOverview="0" layerid="Vinchiaturo_Campobasso_5281eba5_7261_43d5_811d_7678a5fd7cee" visible="1"/>
+          <legendlayerfile isInOverview="0" layerid="Vinchiaturo_Campobasso_5281eba5_7261_43d5_811d_7678a5fd7cee" visible="0"/>
         </filegroup>
       </legendlayer>
       <legendlayer showFeatureCount="0" name="Carpinone-Bojano" drawingOrder="-1" checked="Qt::Checked" open="true">
         <filegroup hidden="false" open="true">
-          <legendlayerfile isInOverview="0" layerid="Carpinone_Bojano_8881eb44_862e_4c5c_8d3c_2674da5b7e59" visible="1"/>
+          <legendlayerfile isInOverview="0" layerid="Carpinone_Bojano_8881eb44_862e_4c5c_8d3c_2674da5b7e59" visible="0"/>
         </filegroup>
       </legendlayer>
       <legendlayer showFeatureCount="0" name="Isernia-Carpinone" drawingOrder="-1" checked="Qt::Checked" open="true">
         <filegroup hidden="false" open="true">
-          <legendlayerfile isInOverview="0" layerid="Isernia_Carpinone_743b5ec9_aae8_46d0_90db_50397cf38753" visible="1"/>
+          <legendlayerfile isInOverview="0" layerid="Isernia_Carpinone_743b5ec9_aae8_46d0_90db_50397cf38753" visible="0"/>
         </filegroup>
       </legendlayer>
       <legendlayer showFeatureCount="0" name="Venafro-Isernia" drawingOrder="-1" checked="Qt::Checked" open="true">
         <filegroup hidden="false" open="true">
-          <legendlayerfile isInOverview="0" layerid="Venafro_Isernia_d18f5398_f38b_4c26_8fb8_4e3c5fc62b6a" visible="1"/>
+          <legendlayerfile isInOverview="0" layerid="Venafro_Isernia_d18f5398_f38b_4c26_8fb8_4e3c5fc62b6a" visible="0"/>
         </filegroup>
       </legendlayer>
       <legendlayer showFeatureCount="0" name="Cassino-Venafro" drawingOrder="-1" checked="Qt::Checked" open="true">
         <filegroup hidden="false" open="true">
-          <legendlayerfile isInOverview="0" layerid="Cassino_Venafro_8d645d65_96f4_4400_a5c6_b50a49405ee8" visible="1"/>
+          <legendlayerfile isInOverview="0" layerid="Cassino_Venafro_8d645d65_96f4_4400_a5c6_b50a49405ee8" visible="0"/>
         </filegroup>
       </legendlayer>
       <legendlayer showFeatureCount="0" name="Roma-Cassino" drawingOrder="-1" checked="Qt::Checked" open="true">
         <filegroup hidden="false" open="true">
-          <legendlayerfile isInOverview="0" layerid="Roma_Cassino_9c1f9ef6_e597_4ca8_8528_7490b37627a5" visible="1"/>
+          <legendlayerfile isInOverview="0" layerid="Roma_Cassino_9c1f9ef6_e597_4ca8_8528_7490b37627a5" visible="0"/>
         </filegroup>
       </legendlayer>
       <legendlayer showFeatureCount="0" name="Roma-Campobasso" drawingOrder="-1" checked="Qt::Checked" open="true">
         <filegroup hidden="false" open="true">
-          <legendlayerfile isInOverview="0" layerid="Roma_Campobasso_b89edea5_c19f_4ad0_b138_acfbb2f6d6c3" visible="1"/>
+          <legendlayerfile isInOverview="0" layerid="Roma_Campobasso_b89edea5_c19f_4ad0_b138_acfbb2f6d6c3" visible="0"/>
         </filegroup>
       </legendlayer>
       <legendlayer showFeatureCount="0" name="Campobasso-Roma" drawingOrder="-1" checked="Qt::Checked" open="true">
         <filegroup hidden="false" open="true">
-          <legendlayerfile isInOverview="0" layerid="Campobasso_Roma_30d5af2c_0798_4cf7_8d36_92240c8ef7b9" visible="1"/>
+          <legendlayerfile isInOverview="0" layerid="Campobasso_Roma_30d5af2c_0798_4cf7_8d36_92240c8ef7b9" visible="0"/>
         </filegroup>
       </legendlayer>
     </legendgroup>
@@ -233,6 +253,167 @@
   <mapViewDocks/>
   <mapViewDocks3D/>
   <projectlayers>
+    <maplayer labelsEnabled="0" refreshOnNotifyMessage="" hasScaleBasedVisibilityFlag="0" simplifyDrawingTol="1" autoRefreshEnabled="0" simplifyAlgorithm="0" geometry="Line" simplifyMaxScale="1" minScale="1e+08" type="vector" autoRefreshTime="0" readOnly="0" simplifyDrawingHints="1" wkbType="MultiLineString" maxScale="0" refreshOnNotifyEnabled="0" simplifyLocal="1" styleCategories="AllStyleCategories">
+      <extent>
+        <xmin>12.50222599190469275</xmin>
+        <ymin>41.42834077566232054</ymin>
+        <xmax>14.66505036891898328</xmax>
+        <ymax>41.90065145305928951</ymax>
+      </extent>
+      <id>20bis_unito_a78802ba_9bf1_4863_9941_95918db8a8ea</id>
+      <datasource>./animazione/20bis semplificato linea.gpkg|layername=20bis semplificato linea</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>20bis unito</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+          <srsid>3452</srsid>
+          <srid>4326</srid>
+          <authid>EPSG:4326</authid>
+          <description>WGS 84</description>
+          <projectionacronym>longlat</projectionacronym>
+          <ellipsoidacronym>WGS84</ellipsoidacronym>
+          <geographicflag>true</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type>dataset</type>
+        <title></title>
+        <abstract></abstract>
+        <links/>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent/>
+      </resourceMetadata>
+      <provider encoding="UTF-8">ogr</provider>
+      <vectorjoins/>
+      <layerDependencies/>
+      <dataDependencies/>
+      <legend type="default-vector"/>
+      <expressionfields/>
+      <map-layer-style-manager current="predefinito">
+        <map-layer-style name="predefinito"/>
+      </map-layer-style-manager>
+      <auxiliaryLayer/>
+      <flags>
+        <Identifiable>1</Identifiable>
+        <Removable>1</Removable>
+        <Searchable>1</Searchable>
+      </flags>
+      <renderer-v2 enableorderby="0" type="singleSymbol" forceraster="0" symbollevels="0">
+        <symbols>
+          <symbol alpha="1" type="line" clip_to_extent="1" name="0" force_rhr="0">
+            <layer pass="0" locked="0" class="SimpleLine" enabled="1">
+              <prop k="capstyle" v="square"/>
+              <prop k="customdash" v="5;2"/>
+              <prop k="customdash_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="customdash_unit" v="MM"/>
+              <prop k="draw_inside_polygon" v="0"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="line_color" v="183,72,75,255"/>
+              <prop k="line_style" v="solid"/>
+              <prop k="line_width" v="0.26"/>
+              <prop k="line_width_unit" v="MM"/>
+              <prop k="offset" v="0"/>
+              <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="ring_filter" v="0"/>
+              <prop k="use_custom_dash" v="0"/>
+              <prop k="width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option type="QString" value="" name="name"/>
+                  <Option name="properties"/>
+                  <Option type="QString" value="collection" name="type"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+        </symbols>
+        <rotation/>
+        <sizescale/>
+      </renderer-v2>
+      <customproperties>
+        <property key="dualview/previewExpressions">
+          <value>'[Please define preview text]'</value>
+        </property>
+      </customproperties>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerOpacity>1</layerOpacity>
+      <geometryOptions removeDuplicateNodes="0" geometryPrecision="0">
+        <activeChecks type="StringList">
+          <Option type="QString" value=""/>
+        </activeChecks>
+        <checkConfiguration/>
+      </geometryOptions>
+      <fieldConfiguration>
+        <field name="fid">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+      </fieldConfiguration>
+      <aliases>
+        <alias field="fid" name="" index="0"/>
+      </aliases>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <defaults>
+        <default field="fid" applyOnUpdate="0" expression=""/>
+      </defaults>
+      <constraints>
+        <constraint unique_strength="1" field="fid" notnull_strength="1" exp_strength="0" constraints="3"/>
+      </constraints>
+      <constraintExpressions>
+        <constraint exp="" field="fid" desc=""/>
+      </constraintExpressions>
+      <expressionfields/>
+      <attributeactions>
+        <defaultAction value="{00000000-0000-0000-0000-000000000000}" key="Canvas"/>
+      </attributeactions>
+      <attributetableconfig sortOrder="0" sortExpression="" actionWidgetStyle="dropDown">
+        <columns>
+          <column type="actions" width="-1" hidden="1"/>
+        </columns>
+      </attributetableconfig>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <storedexpressions/>
+      <editform tolerant="1"></editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode><![CDATA[]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <editable/>
+      <labelOnTop/>
+      <widgets/>
+      <previewExpression>'[Please define preview text]'</previewExpression>
+      <mapTip></mapTip>
+    </maplayer>
     <maplayer labelsEnabled="0" refreshOnNotifyMessage="" hasScaleBasedVisibilityFlag="0" simplifyDrawingTol="1" autoRefreshEnabled="0" simplifyAlgorithm="0" geometry="Line" simplifyMaxScale="1" minScale="1e+08" type="vector" autoRefreshTime="0" readOnly="0" simplifyDrawingHints="1" wkbType="MultiLineString" maxScale="0" refreshOnNotifyEnabled="0" simplifyLocal="1" styleCategories="AllStyleCategories">
       <extent>
         <xmin>957094.1334245519246906</xmin>
@@ -2183,7 +2364,7 @@ def my_form_open(dialog, layer, feature):
               <prop k="joinstyle" v="bevel"/>
               <prop k="line_color" v="133,182,111,255"/>
               <prop k="line_style" v="solid"/>
-              <prop k="line_width" v="1.26"/>
+              <prop k="line_width" v="2.26"/>
               <prop k="line_width_unit" v="MM"/>
               <prop k="offset" v="0"/>
               <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
@@ -3629,6 +3810,218 @@ def my_form_open(dialog, layer, feature):
       <previewExpression>NOME</previewExpression>
       <mapTip></mapTip>
     </maplayer>
+    <maplayer labelsEnabled="0" refreshOnNotifyMessage="" hasScaleBasedVisibilityFlag="0" simplifyDrawingTol="1" autoRefreshEnabled="0" simplifyAlgorithm="0" geometry="Point" simplifyMaxScale="1" minScale="1e+08" type="vector" autoRefreshTime="0" readOnly="0" simplifyDrawingHints="1" wkbType="Point" maxScale="0" refreshOnNotifyEnabled="0" simplifyLocal="1" styleCategories="AllStyleCategories">
+      <extent>
+        <xmin>12.50222599190469275</xmin>
+        <ymin>41.42834077566232054</ymin>
+        <xmax>14.66505036891898328</xmax>
+        <ymax>41.90065145305928951</ymax>
+      </extent>
+      <id>Vertici_17af70fb_5f4c_46fd_837d_2ff3ff8af4f7</id>
+      <datasource>./animazione/20bis semplificato punti.gpkg|layername=20bis semplificato punti</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>20bis punti</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+          <srsid>3452</srsid>
+          <srid>4326</srid>
+          <authid>EPSG:4326</authid>
+          <description>WGS 84</description>
+          <projectionacronym>longlat</projectionacronym>
+          <ellipsoidacronym>WGS84</ellipsoidacronym>
+          <geographicflag>true</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type>dataset</type>
+        <title></title>
+        <abstract></abstract>
+        <links/>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent/>
+      </resourceMetadata>
+      <provider encoding="UTF-8">ogr</provider>
+      <vectorjoins/>
+      <layerDependencies/>
+      <dataDependencies/>
+      <legend type="default-vector"/>
+      <expressionfields/>
+      <map-layer-style-manager current="predefinito">
+        <map-layer-style name="predefinito"/>
+      </map-layer-style-manager>
+      <auxiliaryLayer/>
+      <flags>
+        <Identifiable>1</Identifiable>
+        <Removable>1</Removable>
+        <Searchable>1</Searchable>
+      </flags>
+      <renderer-v2 enableorderby="0" type="singleSymbol" forceraster="0" symbollevels="0">
+        <symbols>
+          <symbol alpha="1" type="marker" clip_to_extent="1" name="0" force_rhr="0">
+            <layer pass="0" locked="0" class="SimpleMarker" enabled="1">
+              <prop k="angle" v="0"/>
+              <prop k="color" v="232,113,141,255"/>
+              <prop k="horizontal_anchor_point" v="1"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="name" v="circle"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="35,35,35,255"/>
+              <prop k="outline_style" v="solid"/>
+              <prop k="outline_width" v="0"/>
+              <prop k="outline_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="scale_method" v="diameter"/>
+              <prop k="size" v="2"/>
+              <prop k="size_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="size_unit" v="MM"/>
+              <prop k="vertical_anchor_point" v="1"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option type="QString" value="" name="name"/>
+                  <Option name="properties"/>
+                  <Option type="QString" value="collection" name="type"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+        </symbols>
+        <rotation/>
+        <sizescale/>
+      </renderer-v2>
+      <customproperties/>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerOpacity>1</layerOpacity>
+      <geometryOptions removeDuplicateNodes="0" geometryPrecision="0">
+        <activeChecks type="StringList">
+          <Option type="QString" value=""/>
+        </activeChecks>
+        <checkConfiguration/>
+      </geometryOptions>
+      <fieldConfiguration>
+        <field name="fid">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="vertex_index">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="vertex_part">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="vertex_part_index">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="distance">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="angle">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+      </fieldConfiguration>
+      <aliases>
+        <alias field="fid" name="" index="0"/>
+        <alias field="vertex_index" name="" index="1"/>
+        <alias field="vertex_part" name="" index="2"/>
+        <alias field="vertex_part_index" name="" index="3"/>
+        <alias field="distance" name="" index="4"/>
+        <alias field="angle" name="" index="5"/>
+      </aliases>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <defaults>
+        <default field="fid" applyOnUpdate="0" expression=""/>
+        <default field="vertex_index" applyOnUpdate="0" expression=""/>
+        <default field="vertex_part" applyOnUpdate="0" expression=""/>
+        <default field="vertex_part_index" applyOnUpdate="0" expression=""/>
+        <default field="distance" applyOnUpdate="0" expression=""/>
+        <default field="angle" applyOnUpdate="0" expression=""/>
+      </defaults>
+      <constraints>
+        <constraint unique_strength="1" field="fid" notnull_strength="1" exp_strength="0" constraints="3"/>
+        <constraint unique_strength="0" field="vertex_index" notnull_strength="0" exp_strength="0" constraints="0"/>
+        <constraint unique_strength="0" field="vertex_part" notnull_strength="0" exp_strength="0" constraints="0"/>
+        <constraint unique_strength="0" field="vertex_part_index" notnull_strength="0" exp_strength="0" constraints="0"/>
+        <constraint unique_strength="0" field="distance" notnull_strength="0" exp_strength="0" constraints="0"/>
+        <constraint unique_strength="0" field="angle" notnull_strength="0" exp_strength="0" constraints="0"/>
+      </constraints>
+      <constraintExpressions>
+        <constraint exp="" field="fid" desc=""/>
+        <constraint exp="" field="vertex_index" desc=""/>
+        <constraint exp="" field="vertex_part" desc=""/>
+        <constraint exp="" field="vertex_part_index" desc=""/>
+        <constraint exp="" field="distance" desc=""/>
+        <constraint exp="" field="angle" desc=""/>
+      </constraintExpressions>
+      <expressionfields/>
+      <attributeactions>
+        <defaultAction value="{00000000-0000-0000-0000-000000000000}" key="Canvas"/>
+      </attributeactions>
+      <attributetableconfig sortOrder="0" sortExpression="" actionWidgetStyle="dropDown">
+        <columns/>
+      </attributetableconfig>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <storedexpressions/>
+      <editform tolerant="1"></editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode><![CDATA[]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <editable/>
+      <labelOnTop/>
+      <widgets/>
+      <previewExpression></previewExpression>
+      <mapTip></mapTip>
+    </maplayer>
     <maplayer labelsEnabled="0" refreshOnNotifyMessage="" hasScaleBasedVisibilityFlag="0" simplifyDrawingTol="1" autoRefreshEnabled="0" simplifyAlgorithm="0" geometry="Line" simplifyMaxScale="1" minScale="1e+08" type="vector" autoRefreshTime="0" readOnly="0" simplifyDrawingHints="1" wkbType="MultiLineString" maxScale="0" refreshOnNotifyEnabled="0" simplifyLocal="1" styleCategories="AllStyleCategories">
       <extent>
         <xmin>966458.74059981387108564</xmin>
@@ -4003,6 +4396,8 @@ def my_form_open(dialog, layer, feature):
     <layer id="Campobasso_Roma_30d5af2c_0798_4cf7_8d36_92240c8ef7b9"/>
     <layer id="ITF_0819f529_dffa_4bb8_99bf_ad2761c78c78"/>
     <layer id="TF_32632_497fbab0_7992_48b0_b4e8_aee279ab2fb5"/>
+    <layer id="20bis_unito_a78802ba_9bf1_4863_9941_95918db8a8ea"/>
+    <layer id="Vertici_17af70fb_5f4c_46fd_837d_2ff3ff8af4f7"/>
   </layerorder>
   <properties>
     <Gui>
