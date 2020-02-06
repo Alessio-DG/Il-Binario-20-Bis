@@ -21,13 +21,13 @@
     <customproperties/>
     <layer-tree-group checked="Qt::Checked" name="xy" expanded="1">
       <customproperties/>
+      <layer-tree-layer source="./animazione/temp stazioni xy.gpkg|layername=temp stazioni xy" providerKey="ogr" checked="Qt::Checked" name="temp stazioni xy" expanded="1" id="temp_stazioni_xy_8e061e55_961a_4c08_96a3_0747a8cba2a2">
+        <customproperties/>
+      </layer-tree-layer>
       <layer-tree-layer source="./animazione/temp punti xy.gpkg|layername=temp punti xy" providerKey="ogr" checked="Qt::Checked" name="temp punti xy" expanded="1" id="temp_punti_xy_2dc1fe09_bc05_40e7_9a94_da6b65fbe064">
         <customproperties/>
       </layer-tree-layer>
     </layer-tree-group>
-    <layer-tree-layer source="./animazione/temp stazioni xy.gpkg|layername=temp stazioni xy" providerKey="ogr" checked="Qt::Checked" name="temp stazioni xy" expanded="1" id="temp_stazioni_xy_8e061e55_961a_4c08_96a3_0747a8cba2a2">
-      <customproperties/>
-    </layer-tree-layer>
     <layer-tree-group checked="Qt::Checked" name="ferrovie italiane" expanded="1">
       <customproperties/>
       <layer-tree-layer source="./Stazioni/Stazioni2.shp|layername=Stazioni2" providerKey="ogr" checked="Qt::Checked" name="Stazioni 20bis" expanded="0" id="Stazioni2_bacb5233_9be1_416c_ae9f_05da3918f634">
@@ -170,17 +170,17 @@
   <projectModels/>
   <legend updateDrawingOrder="true">
     <legendgroup checked="Qt::Checked" name="xy" open="true">
+      <legendlayer checked="Qt::Checked" showFeatureCount="0" name="temp stazioni xy" open="true" drawingOrder="-1">
+        <filegroup hidden="false" open="true">
+          <legendlayerfile isInOverview="0" layerid="temp_stazioni_xy_8e061e55_961a_4c08_96a3_0747a8cba2a2" visible="1"/>
+        </filegroup>
+      </legendlayer>
       <legendlayer checked="Qt::Checked" showFeatureCount="0" name="temp punti xy" open="true" drawingOrder="-1">
         <filegroup hidden="false" open="true">
           <legendlayerfile isInOverview="0" layerid="temp_punti_xy_2dc1fe09_bc05_40e7_9a94_da6b65fbe064" visible="1"/>
         </filegroup>
       </legendlayer>
     </legendgroup>
-    <legendlayer checked="Qt::Checked" showFeatureCount="0" name="temp stazioni xy" open="true" drawingOrder="-1">
-      <filegroup hidden="false" open="true">
-        <legendlayerfile isInOverview="0" layerid="temp_stazioni_xy_8e061e55_961a_4c08_96a3_0747a8cba2a2" visible="1"/>
-      </filegroup>
-    </legendlayer>
     <legendgroup checked="Qt::Checked" name="ferrovie italiane" open="true">
       <legendlayer checked="Qt::Checked" showFeatureCount="0" name="Stazioni 20bis" open="false" drawingOrder="-1">
         <filegroup hidden="false" open="false">
