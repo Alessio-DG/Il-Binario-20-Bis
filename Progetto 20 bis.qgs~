@@ -27,10 +27,10 @@
       <layer-tree-layer id="lunghezza_bce45533_c9b7_4ccd_850b_b5622db16d94" name="lunghezza" expanded="1" providerKey="delimitedtext" checked="Qt::Unchecked" source="./animazione/lunghezza.csv?type=csv&amp;delimiter=,\t;&amp;detectTypes=yes&amp;decimalPoint=,&amp;xField=x&amp;yField=y&amp;crs=EPSG:4326&amp;spatialIndex=no&amp;subsetIndex=no&amp;watchFile=no">
         <customproperties/>
       </layer-tree-layer>
-      <layer-tree-layer id="punti_animazione_semplificato_846aee54_815b_41fa_a3e2_37e2c37fe54a" name="punti animazione semplificato" expanded="1" providerKey="delimitedtext" checked="Qt::Checked" source="./animazione/punti animazione semplificato.csv?type=csv&amp;delimiter=\t;&amp;detectTypes=yes&amp;decimalPoint=,&amp;xField=x&amp;yField=y&amp;crs=EPSG:4326&amp;spatialIndex=no&amp;subsetIndex=no&amp;watchFile=no&amp;subset=CONCAT(SUBSTR(&quot;time&quot;,7,11),SUBSTR(&quot;time&quot;,1,3),SUBSTR(&quot;time&quot;,4,6),SUBSTR(&quot;time&quot;,11,26)) &lt; CONCAT(SUBSTR('06/02/2020 00:01:00',7,11),SUBSTR('06/02/2020 00:01:00',1,3),SUBSTR('06/02/2020 00:01:00',4,6),SUBSTR('06/02/2020 00:01:00',11,26)) AND CONCAT(SUBSTR(&quot;time&quot;,7,11),SUBSTR(&quot;time&quot;,1,3),SUBSTR(&quot;time&quot;,4,6),SUBSTR(&quot;time&quot;,11,26))>%3DCONCAT(SUBSTR('06/02/2020 00:00:00',7,11),SUBSTR('06/02/2020 00:00:00',1,3),SUBSTR('06/02/2020 00:00:00',4,6),SUBSTR('06/02/2020 00:00:00',11,26))">
+      <layer-tree-layer id="punti_animazione_semplificato_846aee54_815b_41fa_a3e2_37e2c37fe54a" name="punti animazione semplificato" expanded="1" providerKey="delimitedtext" checked="Qt::Checked" source="./animazione/punti animazione semplificato.csv?type=csv&amp;delimiter=\t;&amp;detectTypes=yes&amp;decimalPoint=,&amp;xField=x&amp;yField=y&amp;crs=EPSG:4326&amp;spatialIndex=no&amp;subsetIndex=no&amp;watchFile=no&amp;subset=CONCAT(SUBSTR(&quot;time&quot;,7,11),SUBSTR(&quot;time&quot;,1,3),SUBSTR(&quot;time&quot;,4,6),SUBSTR(&quot;time&quot;,11,26)) &lt; CONCAT(SUBSTR('06/02/2020 01:59:00',7,11),SUBSTR('06/02/2020 01:59:00',1,3),SUBSTR('06/02/2020 01:59:00',4,6),SUBSTR('06/02/2020 01:59:00',11,26)) AND CONCAT(SUBSTR(&quot;time&quot;,7,11),SUBSTR(&quot;time&quot;,1,3),SUBSTR(&quot;time&quot;,4,6),SUBSTR(&quot;time&quot;,11,26))>%3DCONCAT(SUBSTR('06/02/2020 01:58:00',7,11),SUBSTR('06/02/2020 01:58:00',1,3),SUBSTR('06/02/2020 01:58:00',4,6),SUBSTR('06/02/2020 01:58:00',11,26))">
         <customproperties/>
       </layer-tree-layer>
-      <layer-tree-layer id="punti_animazione_semplificato_682c8286_ca7f_4f6a_a788_15c0715abb5a" name="punti animazione semplificato  copia" expanded="1" providerKey="delimitedtext" checked="Qt::Checked" source="./animazione/punti animazione semplificato.csv?type=csv&amp;delimiter=\t;&amp;detectTypes=yes&amp;decimalPoint=,&amp;xField=x&amp;yField=y&amp;crs=EPSG:4326&amp;spatialIndex=no&amp;subsetIndex=no&amp;watchFile=no&amp;subset=CONCAT(SUBSTR(&quot;time&quot;,7,11),SUBSTR(&quot;time&quot;,1,3),SUBSTR(&quot;time&quot;,4,6),SUBSTR(&quot;time&quot;,11,26)) &lt; CONCAT(SUBSTR('06/02/2020 00:01:00',7,11),SUBSTR('06/02/2020 00:01:00',1,3),SUBSTR('06/02/2020 00:01:00',4,6),SUBSTR('06/02/2020 00:01:00',11,26)) AND CONCAT(SUBSTR(&quot;time&quot;,7,11),SUBSTR(&quot;time&quot;,1,3),SUBSTR(&quot;time&quot;,4,6),SUBSTR(&quot;time&quot;,11,26))>%3DCONCAT(SUBSTR('01/01/0001 00:00:00',7,11),SUBSTR('01/01/0001 00:00:00',1,3),SUBSTR('01/01/0001 00:00:00',4,6),SUBSTR('01/01/0001 00:00:00',11,26))">
+      <layer-tree-layer id="punti_animazione_semplificato_682c8286_ca7f_4f6a_a788_15c0715abb5a" name="punti animazione semplificato  copia" expanded="1" providerKey="delimitedtext" checked="Qt::Checked" source="./animazione/punti animazione semplificato.csv?type=csv&amp;delimiter=\t;&amp;detectTypes=yes&amp;decimalPoint=,&amp;xField=x&amp;yField=y&amp;crs=EPSG:4326&amp;spatialIndex=no&amp;subsetIndex=no&amp;watchFile=no&amp;subset=CONCAT(SUBSTR(&quot;time&quot;,7,11),SUBSTR(&quot;time&quot;,1,3),SUBSTR(&quot;time&quot;,4,6),SUBSTR(&quot;time&quot;,11,26)) &lt; CONCAT(SUBSTR('06/02/2020 01:59:00',7,11),SUBSTR('06/02/2020 01:59:00',1,3),SUBSTR('06/02/2020 01:59:00',4,6),SUBSTR('06/02/2020 01:59:00',11,26)) AND CONCAT(SUBSTR(&quot;time&quot;,7,11),SUBSTR(&quot;time&quot;,1,3),SUBSTR(&quot;time&quot;,4,6),SUBSTR(&quot;time&quot;,11,26))>%3DCONCAT(SUBSTR('01/01/0001 00:00:00',7,11),SUBSTR('01/01/0001 00:00:00',1,3),SUBSTR('01/01/0001 00:00:00',4,6),SUBSTR('01/01/0001 00:00:00',11,26))">
         <customproperties/>
       </layer-tree-layer>
       <layer-tree-layer id="punti_xy_be933e58_4aa6_401e_9505_b881149939b8" name="punti xy" expanded="1" providerKey="ogr" checked="Qt::Unchecked" source="./animazione/punti xy.gpkg|layername=punti xy">
@@ -5136,12 +5136,12 @@ def my_form_open(dialog, layer, feature):
     <maplayer maxScale="0" simplifyMaxScale="1" minScale="1e+08" simplifyDrawingHints="0" simplifyDrawingTol="1" autoRefreshEnabled="0" readOnly="0" hasScaleBasedVisibilityFlag="0" refreshOnNotifyMessage="" simplifyLocal="1" labelsEnabled="0" refreshOnNotifyEnabled="0" autoRefreshTime="0" simplifyAlgorithm="0" type="vector" wkbType="Point" geometry="Point" styleCategories="AllStyleCategories">
       <extent>
         <xmin>12.50222598999999946</xmin>
-        <ymin>41.90065144999999802</ymin>
-        <xmax>12.50222598999999946</xmax>
+        <ymin>41.4283407799999992</ymin>
+        <xmax>14.66521861999999921</xmax>
         <ymax>41.90065144999999802</ymax>
       </extent>
       <id>punti_animazione_semplificato_682c8286_ca7f_4f6a_a788_15c0715abb5a</id>
-      <datasource>file:./animazione/punti%20animazione%20semplificato.csv?type=csv&amp;delimiter=%5Ct;&amp;detectTypes=yes&amp;decimalPoint=,&amp;xField=x&amp;yField=y&amp;crs=EPSG:4326&amp;spatialIndex=no&amp;subsetIndex=no&amp;watchFile=no&amp;subset=CONCAT(SUBSTR(%22time%22,7,11),SUBSTR(%22time%22,1,3),SUBSTR(%22time%22,4,6),SUBSTR(%22time%22,11,26))%20%3C%20CONCAT(SUBSTR('06/02/2020%2000:01:00',7,11),SUBSTR('06/02/2020%2000:01:00',1,3),SUBSTR('06/02/2020%2000:01:00',4,6),SUBSTR('06/02/2020%2000:01:00',11,26))%20AND%20CONCAT(SUBSTR(%22time%22,7,11),SUBSTR(%22time%22,1,3),SUBSTR(%22time%22,4,6),SUBSTR(%22time%22,11,26))%3E%3DCONCAT(SUBSTR('01/01/0001%2000:00:00',7,11),SUBSTR('01/01/0001%2000:00:00',1,3),SUBSTR('01/01/0001%2000:00:00',4,6),SUBSTR('01/01/0001%2000:00:00',11,26))</datasource>
+      <datasource>file:./animazione/punti%20animazione%20semplificato.csv?type=csv&amp;delimiter=%5Ct;&amp;detectTypes=yes&amp;decimalPoint=,&amp;xField=x&amp;yField=y&amp;crs=EPSG:4326&amp;spatialIndex=no&amp;subsetIndex=no&amp;watchFile=no&amp;subset=CONCAT(SUBSTR(%22time%22,7,11),SUBSTR(%22time%22,1,3),SUBSTR(%22time%22,4,6),SUBSTR(%22time%22,11,26))%20%3C%20CONCAT(SUBSTR('06/02/2020%2001:59:00',7,11),SUBSTR('06/02/2020%2001:59:00',1,3),SUBSTR('06/02/2020%2001:59:00',4,6),SUBSTR('06/02/2020%2001:59:00',11,26))%20AND%20CONCAT(SUBSTR(%22time%22,7,11),SUBSTR(%22time%22,1,3),SUBSTR(%22time%22,4,6),SUBSTR(%22time%22,11,26))%3E%3DCONCAT(SUBSTR('01/01/0001%2000:00:00',7,11),SUBSTR('01/01/0001%2000:00:00',1,3),SUBSTR('01/01/0001%2000:00:00',4,6),SUBSTR('01/01/0001%2000:00:00',11,26))</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -5418,13 +5418,13 @@ def my_form_open(dialog, layer, feature):
     </maplayer>
     <maplayer maxScale="0" simplifyMaxScale="1" minScale="1e+08" simplifyDrawingHints="0" simplifyDrawingTol="1" autoRefreshEnabled="0" readOnly="0" hasScaleBasedVisibilityFlag="0" refreshOnNotifyMessage="" simplifyLocal="1" labelsEnabled="0" refreshOnNotifyEnabled="0" autoRefreshTime="0" simplifyAlgorithm="0" type="vector" wkbType="Point" geometry="Point" styleCategories="AllStyleCategories">
       <extent>
-        <xmin>12.50222598999999946</xmin>
-        <ymin>41.90065144999999802</ymin>
-        <xmax>12.50222598999999946</xmax>
-        <ymax>41.90065144999999802</ymax>
+        <xmin>14.66521861999999921</xmin>
+        <ymin>41.55968357999999796</ymin>
+        <xmax>14.66521861999999921</xmax>
+        <ymax>41.55968357999999796</ymax>
       </extent>
       <id>punti_animazione_semplificato_846aee54_815b_41fa_a3e2_37e2c37fe54a</id>
-      <datasource>file:./animazione/punti%20animazione%20semplificato.csv?type=csv&amp;delimiter=%5Ct;&amp;detectTypes=yes&amp;decimalPoint=,&amp;xField=x&amp;yField=y&amp;crs=EPSG:4326&amp;spatialIndex=no&amp;subsetIndex=no&amp;watchFile=no&amp;subset=CONCAT(SUBSTR(%22time%22,7,11),SUBSTR(%22time%22,1,3),SUBSTR(%22time%22,4,6),SUBSTR(%22time%22,11,26))%20%3C%20CONCAT(SUBSTR('06/02/2020%2000:01:00',7,11),SUBSTR('06/02/2020%2000:01:00',1,3),SUBSTR('06/02/2020%2000:01:00',4,6),SUBSTR('06/02/2020%2000:01:00',11,26))%20AND%20CONCAT(SUBSTR(%22time%22,7,11),SUBSTR(%22time%22,1,3),SUBSTR(%22time%22,4,6),SUBSTR(%22time%22,11,26))%3E%3DCONCAT(SUBSTR('06/02/2020%2000:00:00',7,11),SUBSTR('06/02/2020%2000:00:00',1,3),SUBSTR('06/02/2020%2000:00:00',4,6),SUBSTR('06/02/2020%2000:00:00',11,26))</datasource>
+      <datasource>file:./animazione/punti%20animazione%20semplificato.csv?type=csv&amp;delimiter=%5Ct;&amp;detectTypes=yes&amp;decimalPoint=,&amp;xField=x&amp;yField=y&amp;crs=EPSG:4326&amp;spatialIndex=no&amp;subsetIndex=no&amp;watchFile=no&amp;subset=CONCAT(SUBSTR(%22time%22,7,11),SUBSTR(%22time%22,1,3),SUBSTR(%22time%22,4,6),SUBSTR(%22time%22,11,26))%20%3C%20CONCAT(SUBSTR('06/02/2020%2001:59:00',7,11),SUBSTR('06/02/2020%2001:59:00',1,3),SUBSTR('06/02/2020%2001:59:00',4,6),SUBSTR('06/02/2020%2001:59:00',11,26))%20AND%20CONCAT(SUBSTR(%22time%22,7,11),SUBSTR(%22time%22,1,3),SUBSTR(%22time%22,4,6),SUBSTR(%22time%22,11,26))%3E%3DCONCAT(SUBSTR('06/02/2020%2001:58:00',7,11),SUBSTR('06/02/2020%2001:58:00',1,3),SUBSTR('06/02/2020%2001:58:00',4,6),SUBSTR('06/02/2020%2001:58:00',11,26))</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -5993,7 +5993,7 @@ def my_form_open(dialog, layer, feature):
     <TimeManager>
       <active type="int">1</active>
       <animationFrameLength type="int">1000</animationFrameLength>
-      <currentMapTimePosition type="QString">2020-06-02 00:00:00</currentMapTimePosition>
+      <currentMapTimePosition type="QString">2020-06-02 01:58:00</currentMapTimePosition>
       <digits type="int">4</digits>
       <labelBgColor type="QString">white</labelBgColor>
       <labelColor type="QString">black</labelColor>
@@ -6010,7 +6010,7 @@ def my_form_open(dialog, layer, feature):
         <value>punti_animazione_semplificato_846aee54_815b_41fa_a3e2_37e2c37fe54a;;time;time;True;%m/%d/%Y %H:%M:%S;0;;False;No interpolation (faster);True;False;False</value>
         <value>punti_animazione_semplificato_682c8286_ca7f_4f6a_a788_15c0715abb5a;;time;time;True;%m/%d/%Y %H:%M:%S;0;;False;No interpolation (faster);True;True;False</value>
       </timeLayerList>
-      <timeLayerManager type="QString">2020-06-02 00:00:00;2020-06-02 01:58:00;2020-06-02 00:00:00</timeLayerManager>
+      <timeLayerManager type="QString">2020-06-02 00:00:00;2020-06-02 01:58:00;2020-06-02 01:58:00</timeLayerManager>
     </TimeManager>
   </properties>
   <visibility-presets/>
