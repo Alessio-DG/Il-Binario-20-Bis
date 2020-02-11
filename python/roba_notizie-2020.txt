@@ -1,8 +1,34 @@
 [
     {
+        "comments": 15,
+        "image": null,
+        "likes": 56,
+        "link": null,
+        "post_id": "2505365136378950",
+        "post_text": "Quello che vedete arrivare tutto contento in stazione \u00e8 il regionale 2363, partito alle 12.29 da Campobasso e arrivato a Roma Tiburtina alle 17.08, con quasi cinque ore di viaggio sul groppone e 76 squisiti\u2026 More minuti di ritardo. Beh, solo un ritardo, e che sar\u00e0 mai? direte voi. No, infatti, ma sulla linea ferroviaria dove tutto pu\u00f2 accadere non \u00e8 mai solo un ritardo.\nIl regionale 2363, infatti, di solito si trasforma alle ore 17.32 nel regionale 2365, che parte da Roma Tiburtina in direzione Campobasso. Il problema, in questo caso, \u00e8 che il treno in entrata \u00e8 arrivato sul binario 24 e quando deve partire lo fa dal binario 25. Quando arriva in orario ha il tempo di andarsi a girare, ma oggi questo tempo non c\u2019era e cos\u00ec voil\u00e0\u00e0\u00e0 partenza spostata al binario 24, senza annunci, senza scritte, senza avvertire i passeggeri.\nL\u2019unica che si \u00e8 preoccupata di farlo - permettendo agli utenti di raggiungere l'altro binario - \u00e8 una capotreno, a conferma del fatto che ci lavora, su quella tratta, non merita quella tratta.",
+        "post_url": "https://m.facebook.com/story.php?story_fbid=2505365136378950&id=1652501871665285",
+        "shared_text": "",
+        "shares": 0,
+        "text": "Quello che vedete arrivare tutto contento in stazione \u00e8 il regionale 2363, partito alle 12.29 da Campobasso e arrivato a Roma Tiburtina alle 17.08, con quasi cinque ore di viaggio sul groppone e 76 squisiti\u2026 More minuti di ritardo. Beh, solo un ritardo, e che sar\u00e0 mai? direte voi. No, infatti, ma sulla linea ferroviaria dove tutto pu\u00f2 accadere non \u00e8 mai solo un ritardo.\nIl regionale 2363, infatti, di solito si trasforma alle ore 17.32 nel regionale 2365, che parte da Roma Tiburtina in direzione Campobasso. Il problema, in questo caso, \u00e8 che il treno in entrata \u00e8 arrivato sul binario 24 e quando deve partire lo fa dal binario 25. Quando arriva in orario ha il tempo di andarsi a girare, ma oggi questo tempo non c\u2019era e cos\u00ec voil\u00e0\u00e0\u00e0 partenza spostata al binario 24, senza annunci, senza scritte, senza avvertire i passeggeri.\nL\u2019unica che si \u00e8 preoccupata di farlo - permettendo agli utenti di raggiungere l'altro binario - \u00e8 una capotreno, a conferma del fatto che ci lavora, su quella tratta, non merita quella tratta.",
+        "time": "2020-02-10 18:39:25"
+    },
+    {
+        "comments": 11,
+        "image": "https://scontent-fco1-1.xx.fbcdn.net/v/t1.0-9/fr/cp0/e15/q65/84733502_2504589366456527_3496609145702842368_n.jpg?_nc_cat=107&_nc_ohc=lDKX2IVT7RQAX9oPfA7&_nc_ht=scontent-fco1-1.xx&oh=5064fa95c50cbcd9dc94504652f5d867&oe=5EC2F3C4",
+        "likes": 80,
+        "link": null,
+        "post_id": "2504590763123054",
+        "post_text": "Il regionale 22217 \u00e8 partito oggi da Campobasso alle 17.07, con 50 minuti di ritardo, dopo che il personale in stazione si \u00e8 parecchio industriato per dividere due vagoni che non volevano staccarsi. San Valentino is in the air \u2764",
+        "post_url": "https://m.facebook.com/story.php?story_fbid=2504590763123054&id=1652501871665285",
+        "shared_text": "",
+        "shares": 0,
+        "text": "Il regionale 22217 \u00e8 partito oggi da Campobasso alle 17.07, con 50 minuti di ritardo, dopo che il personale in stazione si \u00e8 parecchio industriato per dividere due vagoni che non volevano staccarsi. San Valentino is in the air \u2764",
+        "time": "2020-02-09 19:03:36"
+    },
+    {
         "comments": 14,
         "image": null,
-        "likes": 198,
+        "likes": 201,
         "link": null,
         "post_id": "2502980983284032",
         "post_text": "In riferimento al nostro post sui ritardi ferroviari di oggi, pubblicato poco fa, chiariamo che non era assolutamente nostra intenzione offendere o fare ironia nel giorno in cui \u00e8 stato indetto uno sciopero per la morte di due ferrovieri nell'incidente del Lodigiano.\nChi ci conosce e ci segue da tempo sa benissimo della nostra buona fede e delle\u2026 More motivazioni con cui \u00e8 nata e va avanti questa pagina. Oggi abbiamo segnalato un disagio alla stazione di Campobasso su stimolo di alcuni passeggeri che erano in stazione e non hanno - come spesso accade - ricevuto adeguata comunicazione del fatto che i treni non sarebbero partiti.\nSiamo e saremo sempre accanto ai lavoratori che sono sui treni e ai passeggeri che sono nei treni. Ai moralisti moralizzanti lacch\u00e8 del potere che non perdono occasione per bacchettarci appena sgarriamo di un millimetro ricordiamo solo che, sebbene non lo meritino, questa battaglia la stiamo facendo anche per loro. Perch\u00e9 loro e i loro figli abbiano prima o poi delle ferrovie degne di un paese civile.\nGrazie.",
@@ -14,7 +40,7 @@
     },
     {
         "comments": 21,
-        "image": "https://scontent-mxp1-1.xx.fbcdn.net/v/t1.0-9/fr/cp0/e15/q65/84571991_2502834816631982_8372498861867925504_o.jpg?_nc_cat=102&_nc_ohc=XTyn7XLNeFQAX9aV9-S&_nc_ht=scontent-mxp1-1.xx&oh=8458db53d8716c09db6b7976cb0231ad&oe=5EBC781E",
+        "image": "https://scontent-fco1-1.xx.fbcdn.net/v/t1.0-9/fr/cp0/e15/q65/84571991_2502834816631982_8372498861867925504_o.jpg?_nc_cat=102&_nc_ohc=Odo4RBIi0iEAX8Aao2Z&_nc_ht=scontent-fco1-1.xx&oh=6d9da81e45386c6cf2f2b7d53f20c3e9&oe=5EBC781E",
         "likes": 62,
         "link": null,
         "post_id": "2502837656631698",
@@ -27,7 +53,7 @@
     },
     {
         "comments": 13,
-        "image": "https://scontent-mxp1-1.xx.fbcdn.net/v/t1.0-9/fr/cp0/e15/q65/84057614_2502107040038093_5309708535779557376_n.jpg?_nc_cat=111&_nc_ohc=Hkq-hA-ASMgAX_Z0TmA&_nc_ht=scontent-mxp1-1.xx&oh=4e545d328977810c4258954df5b5110b&oe=5ED28938",
+        "image": "https://scontent-fco1-1.xx.fbcdn.net/v/t1.0-9/fr/cp0/e15/q65/84057614_2502107040038093_5309708535779557376_n.jpg?_nc_cat=111&_nc_ohc=47DkKn8iK90AX-RLPWS&_nc_ht=scontent-fco1-1.xx&oh=5937e07eb10713c80eabfc57efb374e0&oe=5ED28938",
         "likes": 57,
         "link": null,
         "post_id": "2502112483370882",
@@ -40,7 +66,7 @@
     },
     {
         "comments": 22,
-        "image": "https://scontent-mxp1-1.xx.fbcdn.net/v/t1.0-9/fr/cp0/e15/q65/84219068_2496502823931848_2585670883146203136_n.jpg?_nc_cat=100&_nc_ohc=JAHhf7wGAkkAX9HcG2f&_nc_ht=scontent-mxp1-1.xx&oh=df4e40899e6f2c97cc83db13117acf15&oe=5ECBEE16",
+        "image": "https://scontent-fco1-1.xx.fbcdn.net/v/t1.0-9/fr/cp0/e15/q65/84219068_2496502823931848_2585670883146203136_n.jpg?_nc_cat=100&_nc_ohc=JAHhf7wGAkkAX-RPdui&_nc_ht=scontent-fco1-1.xx&oh=7b398f035d0392b1a404f724676aaaa0&oe=5ECBEE16",
         "likes": 127,
         "link": null,
         "post_id": "2496504867264977",
@@ -53,7 +79,7 @@
     },
     {
         "comments": 34,
-        "image": "https://scontent-mxp1-1.xx.fbcdn.net/v/t1.0-9/fr/cp0/e15/q65/82942317_2491184624463668_2015338684101951488_o.jpg?_nc_cat=100&_nc_ohc=qFyG4aZUF2YAX9yrRSm&_nc_ht=scontent-mxp1-1.xx&oh=2c0e473894cde4cbfea8ca16786b59f3&oe=5EB7F2BC",
+        "image": "https://scontent-fco1-1.xx.fbcdn.net/v/t1.0-9/fr/cp0/e15/q65/82942317_2491184624463668_2015338684101951488_o.jpg?_nc_cat=100&_nc_ohc=qFyG4aZUF2YAX-yfvUh&_nc_ht=scontent-fco1-1.xx&oh=22317e42b99e0aa885afa8f58b2217d9&oe=5EB7F2BC",
         "likes": 108,
         "link": null,
         "post_id": "2491185867796877",
@@ -66,7 +92,7 @@
     },
     {
         "comments": 41,
-        "image": "https://scontent-mxp1-1.xx.fbcdn.net/v/t1.0-9/fr/cp0/e15/q65/82741107_2483731021875695_6830203043909206016_o.jpg?_nc_cat=111&_nc_ohc=wWgaadxh7DYAX_feFQX&_nc_ht=scontent-mxp1-1.xx&oh=3ec683ce90ec889f394b1e414d005836&oe=5ECC8CBE",
+        "image": "https://scontent-fco1-1.xx.fbcdn.net/v/t1.0-9/fr/cp0/e15/q65/82741107_2483731021875695_6830203043909206016_o.jpg?_nc_cat=111&_nc_ohc=wWgaadxh7DYAX_ILOud&_nc_ht=scontent-fco1-1.xx&oh=625a53ee09b12909e07b3b3ae3332e81&oe=5ECC8CBE",
         "likes": 191,
         "link": null,
         "post_id": "2483733831875414",
@@ -79,7 +105,7 @@
     },
     {
         "comments": 8,
-        "image": "https://scontent-mxp1-1.xx.fbcdn.net/v/t1.0-9/fr/cp0/e15/q65/82863176_2482984088617055_5521318305983365120_n.jpg?_nc_cat=101&_nc_ohc=74rmiK0F43wAX977fWj&_nc_ht=scontent-mxp1-1.xx&oh=389fdfc7b7e699e19aa55d52450cddc0&oe=5EB607C6",
+        "image": "https://scontent-fco1-1.xx.fbcdn.net/v/t1.0-9/fr/cp0/e15/q65/82863176_2482984088617055_5521318305983365120_n.jpg?_nc_cat=101&_nc_ohc=Zw32cWVhWEsAX9rxxEv&_nc_ht=scontent-fco1-1.xx&oh=5817a209d9003c9528ae8e5884429b42&oe=5EB607C6",
         "likes": 104,
         "link": null,
         "post_id": "2482984975283633",
@@ -92,7 +118,7 @@
     },
     {
         "comments": 28,
-        "image": "https://scontent-mxp1-1.xx.fbcdn.net/v/t1.0-9/81545686_2479863275595803_5328640579821633536_n.png?_nc_cat=104&_nc_ohc=5q9VJu7Am7MAX_IlO5N&_nc_ht=scontent-mxp1-1.xx&oh=7170ba7587dd11d31cfc1bd7910b6ba4&oe=5EC0AF51",
+        "image": "https://scontent-fco1-1.xx.fbcdn.net/v/t1.0-9/81545686_2479863275595803_5328640579821633536_n.png?_nc_cat=104&_nc_ohc=xqAJR5X0G84AX_MM5j4&_nc_ht=scontent-fco1-1.xx&oh=263413093330798005d7035171fd9eb2&oe=5EC0AF51",
         "likes": 124,
         "link": null,
         "post_id": "2479869015595229",
@@ -105,7 +131,7 @@
     },
     {
         "comments": 45,
-        "image": "https://scontent-mxp1-1.xx.fbcdn.net/v/t1.0-9/fr/cp0/e15/q65/81874964_2474773639438100_614560535307878400_n.jpg?_nc_cat=106&_nc_ohc=ZYtHoiqLwakAX_3QEs2&_nc_ht=scontent-mxp1-1.xx&oh=9d968b7b16eb0d9f2a7f352010a418ce&oe=5ECF1945",
+        "image": "https://scontent-fco1-1.xx.fbcdn.net/v/t1.0-9/fr/cp0/e15/q65/81874964_2474773639438100_614560535307878400_n.jpg?_nc_cat=106&_nc_ohc=ZYtHoiqLwakAX_x2SfZ&_nc_ht=scontent-fco1-1.xx&oh=919bb5f26f59823a612ff5db45f1fb89&oe=5ECF1945",
         "likes": 190,
         "link": null,
         "post_id": "2474780709437393",
@@ -118,7 +144,7 @@
     },
     {
         "comments": 13,
-        "image": "https://scontent-mxp1-1.xx.fbcdn.net/v/t1.0-9/fr/cp0/e15/q65/81204884_2471423676439763_5475740516765138944_o.jpg?_nc_cat=110&_nc_ohc=HG4t2HKonVEAX_Q5GbQ&_nc_ht=scontent-mxp1-1.xx&oh=206d64d6f13d99c89c0d0c42a4c195a9&oe=5EC373F3",
+        "image": "https://scontent-fco1-1.xx.fbcdn.net/v/t1.0-9/fr/cp0/e15/q65/81204884_2471423676439763_5475740516765138944_o.jpg?_nc_cat=110&_nc_ohc=HG4t2HKonVEAX8qiwln&_nc_ht=scontent-fco1-1.xx&oh=725ee109a82e3b3d3f6b6faa421f46f3&oe=5EC373F3",
         "likes": 188,
         "link": null,
         "post_id": "2471424133106384",
@@ -131,7 +157,7 @@
     },
     {
         "comments": 25,
-        "image": "https://scontent-mxp1-1.xx.fbcdn.net/v/t1.0-9/fr/cp0/e15/q65/80555762_2465602890355175_6792331358027907072_o.jpg?_nc_cat=104&_nc_ohc=s1uu0EoJj40AX9QoceW&_nc_ht=scontent-mxp1-1.xx&oh=cf0e783e373f8ca47be4ded8986649db&oe=5ED5BCDA",
+        "image": "https://scontent-fco1-1.xx.fbcdn.net/v/t1.0-9/fr/cp0/e15/q65/80555762_2465602890355175_6792331358027907072_o.jpg?_nc_cat=104&_nc_ohc=s1uu0EoJj40AX8FnrwW&_nc_ht=scontent-fco1-1.xx&oh=a22c333085888da14e2a1d9df36cf7ec&oe=5ED5BCDA",
         "likes": 128,
         "link": null,
         "post_id": "2465604753688322",
@@ -144,7 +170,7 @@
     },
     {
         "comments": 23,
-        "image": "https://scontent-mxp1-1.xx.fbcdn.net/v/t1.0-9/fr/cp0/e15/q65/80734073_2460667274182070_6773278578160173056_n.jpg?_nc_cat=108&_nc_ohc=E8bDFily4eAAX81eH2f&_nc_ht=scontent-mxp1-1.xx&oh=042e06b2c9480e942f82338f1530d70b&oe=5F0326F3",
+        "image": "https://scontent-fco1-1.xx.fbcdn.net/v/t1.0-9/fr/cp0/e15/q65/80734073_2460667274182070_6773278578160173056_n.jpg?_nc_cat=108&_nc_ohc=b1Z_lHep_rkAX8EWGw1&_nc_ht=scontent-fco1-1.xx&oh=f7db2e0cac1ecbd1e147c6335927beca&oe=5F0326F3",
         "likes": 86,
         "link": null,
         "post_id": "2460670074181790",
@@ -157,7 +183,7 @@
     },
     {
         "comments": 35,
-        "image": "https://scontent-mxp1-1.xx.fbcdn.net/v/t1.0-9/fr/cp0/e15/q65/80435398_2458068781108586_8959236173830553600_n.jpg?_nc_cat=108&_nc_ohc=fTVA3sU-OO4AX-nCsH3&_nc_ht=scontent-mxp1-1.xx&oh=ed119d28bcf9a6e2931d879f31ab58fe&oe=5ED4EF1B",
+        "image": "https://scontent-fco1-1.xx.fbcdn.net/v/t1.0-9/fr/cp0/e15/q65/80435398_2458068781108586_8959236173830553600_n.jpg?_nc_cat=108&_nc_ohc=_3lYyDba3IUAX8L10za&_nc_ht=scontent-fco1-1.xx&oh=fbbc31555501671ea4ba1ce685d36462&oe=5ED4EF1B",
         "likes": 145,
         "link": null,
         "post_id": "2458075251107939",
@@ -170,7 +196,7 @@
     },
     {
         "comments": 10,
-        "image": "https://scontent-mxp1-1.xx.fbcdn.net/v/t1.0-9/fr/cp0/e15/q65/78828749_2451130245135773_863168511009095680_o.jpg?_nc_cat=104&_nc_ohc=GSMzmVhhM_UAX9520LQ&_nc_ht=scontent-mxp1-1.xx&oh=9249a9b7b86ae5efcc8d0ea73d2326e7&oe=5ED1F9F4",
+        "image": "https://scontent-fco1-1.xx.fbcdn.net/v/t1.0-9/fr/cp0/e15/q65/78828749_2451130245135773_863168511009095680_o.jpg?_nc_cat=104&_nc_ohc=GSMzmVhhM_UAX9OS1W0&_nc_ht=scontent-fco1-1.xx&oh=1c85966635c4dea6790f13dd909c7e4a&oe=5ED1F9F4",
         "likes": 95,
         "link": null,
         "post_id": "2451130851802379",
@@ -183,7 +209,7 @@
     },
     {
         "comments": 29,
-        "image": "https://scontent-mxp1-1.xx.fbcdn.net/v/t1.0-9/fr/cp0/e15/q65/79658872_2447959245452873_1600250826750689280_o.jpg?_nc_cat=101&_nc_ohc=K4TCFfOF0fAAX-8P3z1&_nc_ht=scontent-mxp1-1.xx&oh=f5c054209dea730ee40ee18d273ed97f&oe=5EB5DE6B",
+        "image": "https://scontent-fco1-1.xx.fbcdn.net/v/t1.0-9/fr/cp0/e15/q65/79658872_2447959245452873_1600250826750689280_o.jpg?_nc_cat=101&_nc_ohc=K4TCFfOF0fAAX90NSgM&_nc_ht=scontent-fco1-1.xx&oh=f9d24ce588484468029f610315c85734&oe=5EB5DE6B",
         "likes": 127,
         "link": null,
         "post_id": "2447959302119534",
@@ -196,7 +222,7 @@
     },
     {
         "comments": 14,
-        "image": "https://scontent-mxp1-1.xx.fbcdn.net/v/t1.0-9/fr/cp0/e15/q65/77396581_2441233789458752_1430268742868140032_n.jpg?_nc_cat=104&_nc_ohc=X2A3yakM8zYAX9T_ivz&_nc_ht=scontent-mxp1-1.xx&oh=d834327f72e320dc96458160f08b0595&oe=5EB84D40",
+        "image": "https://scontent-fco1-1.xx.fbcdn.net/v/t1.0-9/fr/cp0/e15/q65/77396581_2441233789458752_1430268742868140032_n.jpg?_nc_cat=104&_nc_ohc=lL7y6VRVgpoAX_qmavL&_nc_ht=scontent-fco1-1.xx&oh=38d7e135e4d161af5d9bf367abc20540&oe=5EB84D40",
         "likes": 74,
         "link": null,
         "post_id": "2441234392792025",
@@ -209,7 +235,7 @@
     },
     {
         "comments": 19,
-        "image": "https://scontent-mxp1-1.xx.fbcdn.net/v/t1.0-9/76762498_2437071936541604_7313800736347783168_o.png?_nc_cat=109&_nc_ohc=avWwneDnfJcAX8BNTd-&_nc_ht=scontent-mxp1-1.xx&oh=356fd866fdda66856db438833565aa5f&oe=5EB8F9E5",
+        "image": "https://scontent-fco1-1.xx.fbcdn.net/v/t1.0-9/76762498_2437071936541604_7313800736347783168_o.png?_nc_cat=109&_nc_ohc=Ec8bHuxGUTAAX9VLcAo&_nc_ht=scontent-fco1-1.xx&oh=ddbe7169b66c76e49a77eeb50d03d26d&oe=5EB8F9E5",
         "likes": 97,
         "link": null,
         "post_id": "2437073076541490",
@@ -219,18 +245,5 @@
         "shares": 0,
         "text": "Roma, Quartier generale di Ferrovie dello Stato\nGioved\u00ec, 5 settembre 2019\nOre 17.45 circa\nNella sala riunioni del Dipartimento \u201cOrari e Puntualit\u00e0\u201d c\u2019\u00e8 fermento. Sul tavolo della discussione il regionale 2365,\u2026 More che parte da Roma Tiburtina alle 17.32 e arriva a Campobasso. \u201cQuesto treno \u2013 sbotta il capo del Dipartimento, Rodolfo Sputazza \u2013 \u00e8 sempre in ritardo, bisogna fare qualcosa!\u201d. Tra le ipotesi al vaglio, ma subito scartate, un miglioramento della linea, treni pi\u00f9 moderni, manutenzione ordinaria. \u201cNaaaa, serve qualcosa di poco costoso, aiutatemi a dire GRATIS\u201d suggerisce il dottor Sputazza. Nel silenzio generale alza una mano tentennante Romoletto Spacconi, stagista 22enne di Ladispoli:\u2026 More",
         "time": "2019-11-27 09:40:54"
-    },
-    {
-        "comments": 43,
-        "image": "https://scontent-mxp1-1.xx.fbcdn.net/v/t1.0-9/fr/cp0/e15/q65/78289375_2436192519962879_2959798135611719680_o.jpg?_nc_cat=109&_nc_ohc=ieQcC40ypqYAX-tPFXT&_nc_ht=scontent-mxp1-1.xx&oh=ef78b0f059909043234db3978d517603&oe=5EB720F0",
-        "likes": 219,
-        "link": null,
-        "post_id": "2436194103296054",
-        "post_text": "GUARDIAREGIA MON AMOUR \u2764\nIl regionale 2351 partito da Campobasso alle 5.45 di questa mattina \u00e8 arrivato a Roma Termini con un ritardo di 1 ora e 29 minuti. I molisani che hanno scelto questo treno per arrivare\u2026 More nella Capitale sono rimasti nelle carrozze, quindi, per quasi 5 ore. Pi\u00f9 di un\u2019ora di queste \u00e8 stata trascorsa ad osservare la natura tra Vinchiaturo e Boiano, fermi - ci raccontano - nei pressi di Guardiaregia, per motivi ignoti. Ignoti e anche oscuri, perch\u00e9 oggi scopriamo che il controllo della linea ferroviaria tra Campobasso e Isernia dipende da Napoli.\nAlla stazione di Isernia lo strazio dei passeggeri si \u00e8 trasformato in una chiamata ai Carabinieri, che sono accorsi sul posto e,\u2026 More",
-        "post_url": "https://m.facebook.com/story.php?story_fbid=2436194103296054&id=1652501871665285",
-        "shared_text": "",
-        "shares": 0,
-        "text": "GUARDIAREGIA MON AMOUR \u2764\nIl regionale 2351 partito da Campobasso alle 5.45 di questa mattina \u00e8 arrivato a Roma Termini con un ritardo di 1 ora e 29 minuti. I molisani che hanno scelto questo treno per arrivare\u2026 More nella Capitale sono rimasti nelle carrozze, quindi, per quasi 5 ore. Pi\u00f9 di un\u2019ora di queste \u00e8 stata trascorsa ad osservare la natura tra Vinchiaturo e Boiano, fermi - ci raccontano - nei pressi di Guardiaregia, per motivi ignoti. Ignoti e anche oscuri, perch\u00e9 oggi scopriamo che il controllo della linea ferroviaria tra Campobasso e Isernia dipende da Napoli.\nAlla stazione di Isernia lo strazio dei passeggeri si \u00e8 trasformato in una chiamata ai Carabinieri, che sono accorsi sul posto e,\u2026 More",
-        "time": "2019-11-26 10:44:17"
     }
 ]
