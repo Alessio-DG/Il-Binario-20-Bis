@@ -27,4 +27,5 @@ Attiva da circa 4 anni, conta più di **12.000** fan, divenendo un punto di rife
 L'idea di base è quella di rappresentare e geolocalizzare il Binario 20 Bis attraverso l’ausilio di dati spaziali e vettoriali geografici a disposizione, raccogliere le notizie più rilevanti dalla pagina per organizzarle in tabelle e, dove possibile, realizzare animazioni sulle stesse.\
 Nello specifico, si è deciso di utilizzare il noto software open-source **QGIS** e, per le animazioni al suo interno, il plugin **Time Manager**. 
 ### Curiosità
-
+- Nonostante fossero pronte da più di una settimana, [@Alessio-DG](https://github.com/Alessio-DG) ha aggiunto le tabelle delle notizie la mattina stessa dell'esame (gg).
+- 
