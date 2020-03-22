@@ -28,4 +28,4 @@ L'idea di base è quella di rappresentare e geolocalizzare il Binario 20 Bis att
 Nello specifico, si è deciso di utilizzare il noto software open-source **QGIS** e, per le animazioni al suo interno, il plugin **Time Manager**. 
 ### Curiosità
 - Nonostante fossero pronte da più di una settimana, [@Alessio-DG](https://github.com/Alessio-DG) ha aggiunto le tabelle delle notizie la mattina stessa dell'esame (gg).
-- 
+- Marzo 2018, sulla tratta ferroviaria Anzio-Roma i treni sono in ritardo a causa di un cavallo sui binari. Non è successo sulla Roma-Campobasso, ma questa notizia piaceva a [@pastafizia](https://github.com/pastafizia), quindi ne parliamo qui ([link](https://www.facebook.com/story.php?story_fbid=1974580406124095&id=1652501871665285)).
